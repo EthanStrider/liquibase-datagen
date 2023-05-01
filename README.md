@@ -1,6 +1,6 @@
 # Data Generator for Liquibase
 
-This is a messy but effective script for generating data for Liquibase logs.
+This is a rough but effective script for generating data for Liquibase logs.
 
 Essentially, the `generate_liquibase_data.py` loads all the files from `mdclogfiles` and then uses them as templates to generate lots of Liquibase logs.
 
