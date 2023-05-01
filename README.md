@@ -25,6 +25,6 @@ To generate data, set the number of `CYCLES` you want to generate, and then run 
 1. Navigate to http://cloud.elastic.co
 2. Create a cloud instance
 3. Take the cloud credentials and add them to the `load_data_into_elasticsearch.py` file
-4. Generate data using the script above
+4. Generate Liquibase data using the `generate_liquibase_data.py` script above
 5. Point the `FILE_PATH` in the `load_data_into_elasticsearch.py` file to the data you just generated
 6. Run `python3 ./load_data_into_elasticsearch.py`
