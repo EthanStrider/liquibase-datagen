@@ -28,3 +28,7 @@ To generate data, set the number of `CYCLES` you want to generate, and then run 
 4. Generate Liquibase data using the `generate_liquibase_data.py` script above
 5. Point the `FILE_PATH` in the `load_data_into_elasticsearch.py` file to the data you just generated
 6. Run `python3 ./load_data_into_elasticsearch.py`
+
+## MDCLOGFILES
+
+Source: https://github.com/mariochampion/mdc-log-tests
